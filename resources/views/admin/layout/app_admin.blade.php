@@ -16,6 +16,9 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/f2f2289e64.js" crossorigin="anonymous" integrity="sha384-njAyRwQ2gDc3fhsu54Xibr4W8YDwI8q5wiaCGXXRMVG6lhO/3Cu6EUuJMP5SikGV"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -36,7 +39,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="botton" aria-expanded="false">Блог</a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Категории</a></li>
+                            <li><a href="{{route('admin.category.index')}}">Категории</a></li>
                             <li><a href="#">Материалы</a></li>
                         </ul>
                     </li>
